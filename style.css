@@ -1,3 +1,4 @@
+html,
 body
 {
     background-color: #fff;
@@ -108,4 +109,67 @@ a
     justify-content: center;
     max-width: 256px;
     text-align: center;
+}
+
+.body3
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    margin: 0;
+    padding: 48px;
+}
+
+#quote
+{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+}
+
+#quote-sayer
+{
+    text-align: end;
+    margin-right: 512px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.body4
+{
+    margin: 64px 128px;
+}
+.body4 .container
+{
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    max-width: 1200px ;
+    height: 200px;
+    margin: 64px 128px;
+    padding: 16px;
+}
+
+.call-to-action
+{
+    font-size: 30px;
+}
+.button-inverted
+{
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 8px;
+    border: solid 2px #eee;
+    padding: 8px 16px;
+    justify-content: flex-end;
+}
+
+.footer
+{
+    padding: 36px;
+    justify-content: center;
 }
